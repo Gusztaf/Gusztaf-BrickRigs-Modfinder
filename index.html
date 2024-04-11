@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod Finder</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Content Styles */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            transition: width 0.4s ease-in-out;
+        }
+
+        .search-container input[type="text"]:focus {
+            width: 500px;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .card-content p {
+            margin-bottom: 0;
+        }
+
+        /* Options Tab */
+        .options-tab {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transform: translateY(-50%);
+        }
+
+        .options-tab h2 {
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .option {
+            margin-bottom: 10px;
+        }
+
+        .option label {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .option input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Web Brick Rigs Modfinder</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+           <!-- <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- Search Container -->
+    <div class="container search-container">
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container main-content">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://cdn.discordapp.com/attachments/1224411124531728425/1224411125047623781/CEV.png?ex=66269f38&is=66142a38&hm=cab3e10a9e3ba400d2dfdce9c5955f823a76c61e5e9aea3a1bd3c0cb157586bb&" alt="Image 1">
+            <div class="card-content">
+                <h2>Combat extended: Vehicular</h2>
+                <h3 style="-webkit-text-fill-color:rgba(201, 107, 0, 0.685);">        Bondrewd</h3>
+                <p>Mod that significantly upgrades in-game vehicle battles adding more content to editor</p><br>
+                <a href="file:///C:/Users/elzbi/Desktop/Meine kącik!/cev.HTML">
+                    <img src="https://cdn.discordapp.com/attachments/897864240231247925/1227712418700857354/download_button.png?ex=6629674a&is=6616f24a&hm=e5d3f7019f1b91995cd480c9806e4238b10e5e58d2b289e84bbd1172c433e3da&" style="width:50px;height:50px;">
+                  </a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://cdn.discordapp.com/attachments/1223730316775133266/1223730318226489526/image.png?ex=6624252b&is=6611b02b&hm=030678a356e8efc06cea2b957c69acd67154f79a4ae90848e9baf3be4bb87d05&" alt="Image 2">
+            <div class="card-content">
+                <h2>Combat extended</h2>
+                <h3 style="-webkit-text-fill-color:rgba(201, 107, 0, 0.685);">        Bondrewd</h3>
+                <p>Mod that significantly upgrades in-game combat adding armor and more handheld content</p><br>
+                <a href="https://drive.google.com/file/d/1Kif7AdJA3h_ZWK5ayAnnkBMmLa_saI-M/view?usp=sharing">
+                    <img src="https://cdn.discordapp.com/attachments/897864240231247925/1227712418700857354/download_button.png?ex=6629674a&is=6616f24a&hm=e5d3f7019f1b91995cd480c9806e4238b10e5e58d2b289e84bbd1172c433e3da&" style="width:50px;height:50px;">
+                  </a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Image 3">
+            <div class="card-content">
+                <h2>Test</h2>
+                <p></p>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Image 4">
+            <div class="card-content">
+                <h2>Test</h2>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Options Tab -->
+    <div class="options-tab">
+        <li><a href="#">Home</a></li>
+        <!--<h2>User Interface Configuration</h2>
+         <div class="option">
+            <label for="dark-mode">Dark Mode:</label>
+            <input type="checkbox" id="dark-mode">
+        </div>
+        <div class="option">
+            <label for="animations">Animations:</label>
+            <input type="checkbox" id="animations">
+        </div> 
+    </div> -->
+
+    <!-- JavaScript for Search Functionality -->
+    <script>
+        document.querySelector('input[type="text"]').addEventListener('keyup', function() {
+            var searchValue = this.value.toLowerCase();
+            var cards = document.querySelectorAll('.card');
+
+            cards.forEach(function(card) {
+                var text = card.textContent.toLowerCase();
+                if (text.indexOf(searchValue) !== -1) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
